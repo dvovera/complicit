@@ -1,0 +1,10 @@
+.Typewriter {
+  display: block;
+}
+
+.grain-overlay {
+  background-image: url("https://assets.codepen.io/16327/noise-e82662fe.png");
+  opacity: 0.95;
+  background-size: 500px 100px;
+  mix-blend-mode: dodge;
+}
