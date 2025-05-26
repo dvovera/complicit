@@ -32,8 +32,8 @@ function App() {
               }}
             />
           </span>{" "}
-          that is not <span className="sticky top-50 underline">complicit</span>{" "}
-          in{" "}
+          that is not{" "}
+          <span className="sticky top-50 underline z-10">complicit</span> in{" "}
           <span className="text-red-500 ">
             <TypeWriter
               options={{
@@ -53,7 +53,9 @@ function App() {
           </span>
           ?
           <h1 className="mt-[20vh] absolute left-0 text-red-900">
-            are you <br />
+            <span className="z-[100]">
+              are you <br />
+            </span>
             you are <br />
             are you <br />
             you are <br />
